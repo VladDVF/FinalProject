@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-07T09:40:11Z" name="Test Suite" finished-at="2023-06-07T09:41:39Z" duration-ms="88078">
+    <groups>
+    </groups>
+    <test started-at="2023-06-07T09:40:11Z" name="Test Case" finished-at="2023-06-07T09:41:39Z" duration-ms="88078">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@45d84a20]" started-at="2023-06-07T12:41:16Z" name="setUp" finished-at="2023-06-07T12:41:18Z" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLogin()[pri:0, instance:tests.LoginTest@45d84a20]" started-at="2023-06-07T12:41:18Z" name="verifySuccessfulLogin" finished-at="2023-06-07T12:41:20Z" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@45d84a20]" started-at="2023-06-07T12:41:20Z" name="tearDown" finished-at="2023-06-07T12:41:20Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyUnsuccessfulLoginWithInvalidCredentials()[pri:0, instance:tests.LoginTest@45d84a20]" started-at="2023-06-07T12:41:20Z" name="verifyUnsuccessfulLoginWithInvalidCredentials" finished-at="2023-06-07T12:41:23Z" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@45d84a20]" started-at="2023-06-07T12:41:23Z" name="tearDown" finished-at="2023-06-07T12:41:23Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="emptyPasswordCredentialsValidation()[pri:0, instance:tests.LoginTest@45d84a20]" started-at="2023-06-07T12:41:23Z" name="emptyPasswordCredentialsValidation" finished-at="2023-06-07T12:41:26Z" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordCredentialsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@45d84a20]" started-at="2023-06-07T12:41:26Z" name="tearDown" finished-at="2023-06-07T12:41:26Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="emptyUsernameCredentialsValidation()[pri:0, instance:tests.LoginTest@45d84a20]" started-at="2023-06-07T12:41:26Z" name="emptyUsernameCredentialsValidation" finished-at="2023-06-07T12:41:29Z" duration-ms="3208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameCredentialsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@45d84a20]" started-at="2023-06-07T12:41:29Z" name="tearDown" finished-at="2023-06-07T12:41:29Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.FooterNavigationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterNavigationTest@28dcca0c]" started-at="2023-06-07T12:41:08Z" name="setUp" finished-at="2023-06-07T12:41:10Z" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFooterNavigationFunctionality()[pri:0, instance:tests.FooterNavigationTest@28dcca0c]" started-at="2023-06-07T12:41:10Z" name="verifyFooterNavigationFunctionality" finished-at="2023-06-07T12:41:16Z" duration-ms="5892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterNavigationFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterNavigationTest@28dcca0c]" started-at="2023-06-07T12:41:16Z" name="tearDown" finished-at="2023-06-07T12:41:16Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FooterNavigationTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@723ca036]" started-at="2023-06-07T12:40:19Z" name="setUp" finished-at="2023-06-07T12:40:21Z" duration-ms="2083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="successfullyAddToCart()[pri:0, instance:tests.CartTest@723ca036]" started-at="2023-06-07T12:40:21Z" name="successfullyAddToCart" finished-at="2023-06-07T12:40:23Z" duration-ms="2632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullyAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@723ca036]" started-at="2023-06-07T12:40:23Z" name="tearDown" finished-at="2023-06-07T12:40:23Z" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="successfullyRemoveFromCart()[pri:0, instance:tests.CartTest@723ca036]" started-at="2023-06-07T12:40:23Z" name="successfullyRemoveFromCart" finished-at="2023-06-07T12:40:28Z" duration-ms="4675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullyRemoveFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@723ca036]" started-at="2023-06-07T12:40:28Z" name="tearDown" finished-at="2023-06-07T12:40:28Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="successfullyContinueShopping()[pri:0, instance:tests.CartTest@723ca036]" started-at="2023-06-07T12:40:28Z" name="successfullyContinueShopping" finished-at="2023-06-07T12:40:34Z" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullyContinueShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@723ca036]" started-at="2023-06-07T12:40:34Z" name="tearDown" finished-at="2023-06-07T12:40:34Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="itemsRemainedAddedToCartAfterLogoutLogin()[pri:0, instance:tests.CartTest@723ca036]" started-at="2023-06-07T12:40:34Z" name="itemsRemainedAddedToCartAfterLogoutLogin" finished-at="2023-06-07T12:40:40Z" duration-ms="6519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsRemainedAddedToCartAfterLogoutLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@723ca036]" started-at="2023-06-07T12:40:40Z" name="tearDown" finished-at="2023-06-07T12:40:40Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.AboutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AboutTest@359df09a]" started-at="2023-06-07T12:40:11Z" name="setUp" finished-at="2023-06-07T12:40:13Z" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulNavigationToAboutPage()[pri:0, instance:tests.AboutTest@359df09a]" started-at="2023-06-07T12:40:13Z" name="verifySuccessfulNavigationToAboutPage" finished-at="2023-06-07T12:40:19Z" duration-ms="5191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulNavigationToAboutPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AboutTest@359df09a]" started-at="2023-06-07T12:40:19Z" name="tearDown" finished-at="2023-06-07T12:40:19Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AboutTest -->
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:40:40Z" name="setUp" finished-at="2023-06-07T12:40:42Z" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SuccessfullyCheckout()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:40:42Z" name="SuccessfullyCheckout" finished-at="2023-06-07T12:40:46Z" duration-ms="3542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfullyCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:40:46Z" name="tearDown" finished-at="2023-06-07T12:40:46Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="cancelCheckout()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:40:46Z" name="cancelCheckout" finished-at="2023-06-07T12:40:52Z" duration-ms="6297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:40:52Z" name="tearDown" finished-at="2023-06-07T12:40:52Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkoutInfoEmptyFirstNameCredentialsValidation()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:40:52Z" name="checkoutInfoEmptyFirstNameCredentialsValidation" finished-at="2023-06-07T12:40:58Z" duration-ms="5194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutInfoEmptyFirstNameCredentialsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:40:58Z" name="tearDown" finished-at="2023-06-07T12:40:58Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkoutInfoEmptyLastNameCredentialsValidation()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:40:58Z" name="checkoutInfoEmptyLastNameCredentialsValidation" finished-at="2023-06-07T12:41:03Z" duration-ms="5198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutInfoEmptyLastNameCredentialsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:41:03Z" name="tearDown" finished-at="2023-06-07T12:41:03Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkoutInfoEmptyZipPostalCodeCredentialsValidation()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:41:03Z" name="checkoutInfoEmptyZipPostalCodeCredentialsValidation" finished-at="2023-06-07T12:41:08Z" duration-ms="5148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutInfoEmptyZipPostalCodeCredentialsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@25be7b63]" started-at="2023-06-07T12:41:08Z" name="tearDown" finished-at="2023-06-07T12:41:08Z" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+      <class name="tests.ProductsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductsTest@4c163e3]" started-at="2023-06-07T12:41:34Z" name="setUp" finished-at="2023-06-07T12:41:36Z" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductsInfoPage()[pri:0, instance:tests.ProductsTest@4c163e3]" started-at="2023-06-07T12:41:36Z" name="verifyProductsInfoPage" finished-at="2023-06-07T12:41:39Z" duration-ms="2626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsInfoPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsTest@4c163e3]" started-at="2023-06-07T12:41:39Z" name="tearDown" finished-at="2023-06-07T12:41:39Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductsTest -->
+      <class name="tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LogoutTest@52f27fbd]" started-at="2023-06-07T12:41:29Z" name="setUp" finished-at="2023-06-07T12:41:31Z" duration-ms="1790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLogout()[pri:0, instance:tests.LogoutTest@52f27fbd]" started-at="2023-06-07T12:41:31Z" name="verifySuccessfulLogout" finished-at="2023-06-07T12:41:34Z" duration-ms="3178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@52f27fbd]" started-at="2023-06-07T12:41:34Z" name="tearDown" finished-at="2023-06-07T12:41:34Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Test Case -->
+  </suite> <!-- Test Suite -->
+</testng-results>
