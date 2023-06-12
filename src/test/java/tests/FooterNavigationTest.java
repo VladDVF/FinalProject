@@ -26,7 +26,7 @@ public class FooterNavigationTest extends BasePage {
         helper.findElementByXPath(WebsiteLogo);
         helper.clickAndVerifyUrlOnDifferentTab(TwitterButton, "https://twitter.com/saucelabs");
         helper.clickAndVerifyUrlOnDifferentTab(FacebookButton, "https://www.facebook.com/saucelabs");
-        helper.clickAndVerifyUrlOnDifferentTab(LinkedinButton, "https://www.linkedin.com/company/sauce-labs/?original_referer=");
+        helper.clickAndVerifyUrlOnDifferentTab(LinkedinButton, "https://www.linkedin.com/company/sauce-labs/");
     }
 }
 

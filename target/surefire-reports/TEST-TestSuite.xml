@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="72.249" tests="17" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="70.136" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="20.0.1+9-29"/>
@@ -29,7 +29,7 @@
     <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.8\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="cp437"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.8\bin;C:\Program Files\Java\jdk-20\bin;C:\Users\dorof\Desktop\Project\src\main\resources\drivers\chromedriver;C:\Users\dorof\AppData\Local\Microsoft\WindowsApps;;C:\Users\dorof\Desktop\IntelliJ IDEA Community Edition 2023.1\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\apache-maven-3.8.8\bin;C:\Program Files\Java\jdk-20\bin;C:\Users\dorof\Desktop\Project\src\main\resources\drivers\chromedriver;C:\Program Files\Git\cmd;C:\Users\dorof\AppData\Local\Microsoft\WindowsApps;;C:\Users\dorof\Desktop\IntelliJ IDEA Community Edition 2023.1\bin;;."/>
     <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.8/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="64.0"/>
@@ -61,21 +61,21 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verifySuccessfulNavigationToAboutPage" classname="tests.AboutTest" time="5.193"/>
-  <testcase name="successfullyAddToCart" classname="tests.CartTest" time="2.631"/>
-  <testcase name="successfullyRemoveFromCart" classname="tests.CartTest" time="4.675"/>
-  <testcase name="successfullyContinueShopping" classname="tests.CartTest" time="5.454"/>
-  <testcase name="itemsRemainedAddedToCartAfterLogoutLogin" classname="tests.CartTest" time="6.52"/>
-  <testcase name="SuccessfullyCheckout" classname="tests.CheckoutTest" time="3.544"/>
-  <testcase name="cancelCheckout" classname="tests.CheckoutTest" time="6.296"/>
-  <testcase name="checkoutInfoEmptyFirstNameCredentialsValidation" classname="tests.CheckoutTest" time="5.197"/>
-  <testcase name="checkoutInfoEmptyLastNameCredentialsValidation" classname="tests.CheckoutTest" time="5.198"/>
-  <testcase name="checkoutInfoEmptyZipPostalCodeCredentialsValidation" classname="tests.CheckoutTest" time="5.147"/>
-  <testcase name="verifyFooterNavigationFunctionality" classname="tests.FooterNavigationTest" time="5.892"/>
-  <testcase name="verifySuccessfulLogin" classname="tests.LoginTest" time="1.327"/>
-  <testcase name="verifyUnsuccessfulLoginWithInvalidCredentials" classname="tests.LoginTest" time="3.088"/>
-  <testcase name="emptyPasswordCredentialsValidation" classname="tests.LoginTest" time="3.077"/>
-  <testcase name="emptyUsernameCredentialsValidation" classname="tests.LoginTest" time="3.207"/>
-  <testcase name="verifySuccessfulLogout" classname="tests.LogoutTest" time="3.177"/>
-  <testcase name="verifyProductsInfoPage" classname="tests.ProductsTest" time="2.626"/>
+  <testcase name="verifySuccessfulNavigationToAboutPage" classname="tests.AboutTest" time="5.111"/>
+  <testcase name="successfullyAddToCart" classname="tests.CartTest" time="2.787"/>
+  <testcase name="successfullyRemoveFromCart" classname="tests.CartTest" time="4.652"/>
+  <testcase name="successfullyContinueShopping" classname="tests.CartTest" time="5.588"/>
+  <testcase name="itemsRemainedAddedToCartAfterLogoutLogin" classname="tests.CartTest" time="6.659"/>
+  <testcase name="SuccessfullyCheckout" classname="tests.CheckoutTest" time="3.182"/>
+  <testcase name="cancelCheckout" classname="tests.CheckoutTest" time="5.656"/>
+  <testcase name="checkoutInfoEmptyFirstNameCredentialsValidation" classname="tests.CheckoutTest" time="4.648"/>
+  <testcase name="checkoutInfoEmptyLastNameCredentialsValidation" classname="tests.CheckoutTest" time="5.168"/>
+  <testcase name="checkoutInfoEmptyZipPostalCodeCredentialsValidation" classname="tests.CheckoutTest" time="4.871"/>
+  <testcase name="verifyFooterNavigationFunctionality" classname="tests.FooterNavigationTest" time="5.285"/>
+  <testcase name="verifySuccessfulLogin" classname="tests.LoginTest" time="1.343"/>
+  <testcase name="verifyUnsuccessfulLoginWithInvalidCredentials" classname="tests.LoginTest" time="3.093"/>
+  <testcase name="emptyPasswordCredentialsValidation" classname="tests.LoginTest" time="3.029"/>
+  <testcase name="emptyUsernameCredentialsValidation" classname="tests.LoginTest" time="3.229"/>
+  <testcase name="verifySuccessfulLogout" classname="tests.LogoutTest" time="3.22"/>
+  <testcase name="verifyProductsInfoPage" classname="tests.ProductsTest" time="2.615"/>
 </testsuite>
